@@ -1,0 +1,614 @@
+/* Credit: http://www.templatemo.com */
+
+/* 
+Shoes Template 
+http://www.templatemo.com/preview/templatemo_367_shoes 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.4em; 
+	background-color: #665f5f;
+	background-repeat: repeat;
+	background-image: url(../images/templatemo_body.jpg)
+}
+
+a, a:link, a:visited { color: #0299aa; font-weight: normal; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+a.addtocart{ display: inline-block; width: 80px; height: 21px; line-height: 21px; text-align: center; font-size: 10px; font-weight: bold; color: #333; background: url(../images/templatemo_addtocart.png) }
+a.detail{ display: inline-block; width: 64px; height: 20px; line-height: 20px; text-align: center; font-size: 10px; font-weight: bold; color: #333; background: url(../images/templatemo_detail.png) }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { border: 1px solid #039fb1; border-left: 5px solid #000; padding: 19px; margin: 20px 0 0 0}
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #333; }
+
+.tmo_list { margin: 10px 0 10px 15px; padding: 0; list-style: none }
+.tmo_list li { color:#999; margin: 0 0 5px 0; padding: 0 0 0 15px; background: url(../images/templatemo_list.png) no-repeat scroll 0 5px  }
+.tmo_list li a { color: #999; font-weight: normal }
+.tmo_list li a:hover { color: #333 }
+
+
+h1, h2, h3, h4, h5, h6 { color: #333; font-weight: normal; }
+h1 { font-size: 30px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 26px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#templatemo_body_wrapper {
+	width: 100%;
+	background: url(../images/templatemo_body_top.jpg) repeat-x top
+}
+
+#templatemo_wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#templatemo_header {
+	width: 960px;
+	height: 70px;
+	padding: 30px 10px;
+	background: url(../images/templatemo_header_bg.png) no-repeat bottom;
+}
+
+#templatemo_menubar {
+	width: 980px;
+	height: 60px;
+	background: url(../images/templatemo_menubar.png) no-repeat;
+}
+
+#templatemo_main {
+	width: 940px;
+	padding: 10px 20px;
+	background: url(../images/templatemo_main_bg.png) repeat-y
+}
+
+#content { width: 690px }
+#sidebar { width: 220px }
+
+#templatemo_footer {
+	width: 960px;
+	padding: 30px 10px;
+	text-align: center;
+	background: url(../images/templatemo_footer.png) no-repeat top
+}
+
+#site_title { float: left; margin-top: 30px; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 300px; height: 40px; padding-top: 30px; font-size: 12px; letter-spacing: 4px; color: #2f2f2f; text-align: left; background: url(../images/templatemo_logo.png) no-repeat top left }
+
+#header_right { float: right; margin: 35px 240px 0 0; color: #666; }
+#header_right a { color: #fff }
+
+#menu_second_bar { padding: 5px 10px; }
+#top_shopping_cart { float: left; padding: 5px 0; font-size: 11px; }
+
+#templatemo_search { float: right; margin: 10px 30px 0; width: 220px; height: 34px; background: url(../images/templatemo_search_bg.png) }
+#templatemo_search form {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_search .txt_field {
+	float: left;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	width: 170px;
+	color: #999;
+	font-size: 12px;
+	padding: 5px;
+	font-variant: normal;
+	border: none;	
+	background: none;
+}
+
+#templatemo_search .sub_btn {
+	float: right;
+	display: block;
+	color: #fff;
+ 	height: 33px;
+	width: 40px;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 26px;
+	cursor: pointer;
+	border: none;
+	background: none;	
+}
+
+.sidebar_box {
+	position: relative;
+	background: #f0f0f0;
+	margin-bottom: 36px;
+	border: 1px solid #dbdbdb
+}
+.sidebar_box h3 { font-size: 14px; font-weight: 700; padding: 0 10px 0 35px; margin: 0; width: 185px; height: 33px; line-height: 33px; margin-bottom: 0; background: url(../images/templatemo_sidebar_header.png)  no-repeat; color: #2f2f2f }
+
+#sidebar .sidebar_box .content {
+	padding: 10px 10px 0;
+}
+
+#sidebar .sidebar_list { margin: 0; padding: 0 0 10px; list-style: none; }
+#sidebar .sidebar_list li { display: block; margin: 0; padding: 5px 0; border-top: 1px solid #fff; border-bottom: 1px solid #d3d3d3 }
+#sidebar .sidebar_list li.first { border-top: none }
+#sidebar .sidebar_list li.last { border-bottom: none }
+#sidebar .sidebar_list li a { color: #666;   }
+#sidebar .sidebar_list li a:hover { color: #000; text-decoration: none }
+
+.bs_box { clear: both; margin-bottom: 20px }
+.bs_box img { float: left; margin-right: 10px; border: 4px solid #fff }
+.bs_box h4 { margin-bottom: 0 }
+.bs_box h4 a { font-size: 11px; color: #000; font-weight: 700}
+.bs_box .price { font-size: 12px; font-weight: 700; color: #11bdd1}
+
+.product_box {
+	float: left;
+	width: 220px;
+	text-align: center;
+	margin: 0 10px 30px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #ccc
+}
+
+.product_box img {
+	margin-bottom: 5px;
+}
+.product_box h3 {
+	font-size: 11px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.product_box .product_price {
+	color: #11bdd1;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.product_box .addtocart {
+	float: left;
+	display: block;
+}
+.product_box .detail {
+	float: right;
+	display: block;
+}
+
+#contact_form { padding: 0; width: 300px; margin-bottom: 40px }
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { 
+	font-family: Arial, Helvetica, sans-serif;
+	width: 270px; 
+	padding: 5px; 
+	color: #808b98;
+	background: #fff;
+	border: 1px solid #dedede; 
+}
+
+#contact_form form label { display: block; width: 100px; margin-right: 12px; font-size: 11px }
+
+#contact_form form textarea { 
+	font-family: Arial, Helvetica, sans-serif;
+	width: 270px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #808b98;
+	background: #fff; 
+	border: 1px solid #dedede; 
+}
+
+#contact_form form .submit_btn { 
+	display: block; 
+	padding: 5px 12px; 
+	text-align: center; 
+	text-decoration: none; 
+	font-weight: bold;
+	background-color: #000; 
+	border: 1px solid #fff; 
+	color: #fff; 
+	font-size:11px; 
+	cursor: pointer;
+}
+
+.content_half { width: 320px }
+.content_13 { width: 220px; margin-right: 10px }
+
+.faqs p { margin-bottom: 20px }
+.faqs h5 { margin-bottom: 5px }
+
+#templatemo_footer {
+	color: #999
+}
+#templatemo_footer a {
+	color: #fff;
+}
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slider-wrapper {
+	float: left;
+    width: 680px;
+    height: 300px;
+	margin-right: 20px;
+	margin-bottom: 60px;
+}
+
+#slider {
+	position:relative;
+    width: 620px;
+    height: 300px;
+	background:url(../images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	right: 10px;
+	bottom: -30px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:14px;
+	height:18px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -18px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/* Form */
+.customForm {
+	color: #444444;
+	width: 320px;
+	margin: 2em auto;
+	font: 13px/1.8 Helvetica;
+}
+.customForm input, .customForm textarea {
+	font: 13px Helvetica;
+}
+
+/* = Input */
+.customForm input {
+	width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 5px;
+}
+.customForm textarea {
+	display: block;
+	/* = Убираем скролл */
+	overflow: auto;
+
+	/* = Убираем увеличение */
+	resize: none;
+	width: 300px;
+	height: 50px;
+
+	/* = Добавим фон, рамку, отступ */
+	background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 5px 0 0 0;
+	padding: 8px 0 8px 10px;
+}
+/* = Переключатели Radio Button */
+.radio {
+	display: block;
+	height: 25px;
+	background-position: 0 -56px;
+	coloR: #444;
+	cursor: pointer;
+	text-indent: 22px;
+	font-size: 13px;
+}
+.radio.active {
+	background-position: 0 -86px;
+}
+.radio.error {
+	border-color: #ff0000;
+}
+
+/*	=	CheckBox */
+/* Стилизируем чекбокс, точнее скрываем его */
+.check input[type=checkbox] {
+	position: absolute;
+	left: -10000px;
+}
+.check {
+	background-position: 0 3px;
+	padding-left: 25px;
+	cursor: pointer;
+	position: relative;
+}
+.check.active {
+	background-position: 0 -27px;
+}
+
+/*	=	Select */
+.slct {
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #cecece;
+	background-color: #F6F6f6;
+	width: 285px;
+	padding: 4px 15px 4px 10px;
+	color: #444;
+	background-position: 290px -145px;
+
+	/*
+		Супер финт обрезаем текст
+		чтобы не вылезал за рамку
+	*/
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+
+}
+.slct.active {
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+}
+.drop {
+	margin: 0;
+	padding: 0;
+	width: 310px;
+	border: 1px solid #cecece;
+	border-top: none;
+	display: none;
+	position: absolute;
+	background: #fff;
+}
+.drop li {
+	list-style: none;
+	border-top: 1px dotted #e8e8e8;
+	cursor: pointer;
+	display: block;
+	color: #444;
+	padding: 4px 15px 4px 25px;
+	background-position: 10px -119px;
+}
+.drop li:hover {
+	background-color: #e8e8e8;
+	color: #222;
+}
+
+/*	=	File Load */
+/* Стили для контейнера */
+.file-load-block {
+	width: 310px;
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+}
+/* работаем с инпутом который конкретно file */
+.file-load-block input[type=file] {
+	/* делаем кроссбраузерную прозрачность */
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	/* Позиционируем абсолютно отсносительно контейнера по правому краю */
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	/*
+	Задаем высоту и делаем шрифт огромным
+	для того чтобы кнопка "обзор" занимала все пространство контейнера
+	*/
+	height: 35px;
+	font-size: 600px;
+
+	/* Ставим наш инпут поверх всего содержимого */
+	z-index: 2;
+	cursor: pointer;
+	width: auto;
+}
+/* Стилизируем инпут и кнопку которые под загрузчиком */
+.file-load-block input[type=text] {
+	z-index: 1;
+	width: 190px;
+	padding-right: 10px;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+.file-load-block button {
+	position: absolute;
+	right: 0;
+	top: 2px;
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 5px;
+	box-shadow: inset 0 2px 2px #ccc;
+}
+.file-load-block .button-hover {
+	box-shadow: 0 0 2px #ccc;
+}
+
+/*	=	Reset Form */
+.reset-form button {
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 5px;
+	box-shadow: inset 0 2px 2px #ccc;
+	cursor: pointer;
+}
+.reset-form button:hover {
+	box-shadow: 0 0 2px #ccc;
+}
+.reset-form button:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+
+/*	=	Form Send */
+.sendmail button {
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 5px;
+	box-shadow: inset 0 2px 2px #ccc;
+	cursor: pointer;
+}
+.sendmail button:hover {
+	box-shadow: 0 0 2px #ccc;
+}
+.sendmail button:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+
+.d-table{
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.d-tr{
+	display: table-row;
+}
+.d-td{
+	display: table-cell;
+	text-align: center;
+	border: none;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+.d-td:not(.no-p){
+	padding: 4px;
+}
+
+/* Form */
+.customForm {
+	color: #444444;
+	width: 320px;
+	margin: 2em auto;
+	font: 13px/1.8 Helvetica;
+}
+.customForm input, .customForm textarea {
+	font: 13px Helvetica;
+}
+
+/* = Input */
+.customForm2 input {
+	width: 200px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 5%;
+}
+.customForm2 textarea {
+	display: block;
+	/* = Убираем скролл */
+	overflow: auto;
+
+	/* = Убираем увеличение */
+	resize: none;
+	width: 300px;
+	height: 50px;
+
+	/* = Добавим фон, рамку, отступ */
+	background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 5px 0 0 0;
+	padding: 8px 0 8px 10px;
+}
+
+/* The alert message box */
+.alert {
+	padding: 20px;
+	background-color: #f44336; /* Red */
+	color: white;
+	margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+/* When moving the mouse over the close button */
+.closebtn:hover {
+	color: black;
+}
