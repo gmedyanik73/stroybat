@@ -50,7 +50,7 @@ Route::namespace('Site')->group(function(){
 });
 //Руты админочки
 
-Route::namespace('Admin')->group(function(){
+Route::group(['namespace'=>'Admin', 'middleware' => 'admin'], function(){
     Route::get('/Admin', 'OrdersController@index');
     Route::get('/Admin/services', 'ServicesController@index');
     Route::get('/Admin/serviceAdd', 'ServicesController@serviceAddShow');
